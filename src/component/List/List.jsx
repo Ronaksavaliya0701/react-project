@@ -9,7 +9,7 @@ function List()
 
             <div className='details'>
                 <p>Have any question ?</p>
-                <p>Free:- </p>
+                <p>Free:- 7894561230</p>
             </div>
             
             <div className='icon'>
