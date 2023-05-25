@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+.container{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+.row
+{
+  padding-left: 16px;
+  padding-right: 16px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+
+ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  margin:5px 10px;
+
+}
+.listname{
+  margin: 50px 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.listname .details p{
+  font-size: 14px;
+  display: block;
+}
+
+.phone img{
+  width: 20px;
+  margin-right:10px;
+}
+.icon{
+ margin-left:50%;
+ display:flex;position: relative;
+}
+.icon::before{
+  position: absolute;
+  content: '';
+  width: 1px;
+  height: 45px;
+  background-color: gray;
+  left: -150px;
+  top: -10px;
+ 
+}
+.icon img{
+  width: 20px;
+  margin-right: 20px;
+}
